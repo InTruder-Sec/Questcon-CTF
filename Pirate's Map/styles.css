@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.head {
+  font-family: cursive;
+  font-size: 42px;
+  color: red;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 50px;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  background-image: url("./assets/background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  z-index: -1;
+}
+
+.ship {
+  display: flex;
+  width: fit-content;
+  margin: 10vh auto;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0px 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  transition: transform 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+a {
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.card1 {
+  background-image: url("./assets/map1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  background-image: url("./assets/map2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background-image: url("./assets/map3.png");
+  background-size: cover;
+  background-position: center;
+}
